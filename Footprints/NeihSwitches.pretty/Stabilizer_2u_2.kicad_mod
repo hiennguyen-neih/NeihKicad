@@ -1,8 +1,10 @@
-(module Stab_2u (layer F.Cu) (tedit 5F173934)
-  (fp_text reference REF** (at 0 0.889 unlocked) (layer F.Fab) hide
+(module Stabilizer_2u_2 (layer F.Cu) (tedit 5F2D2FDF)
+  (descr "2u long stabilizer socket with keycap shape")
+  (tags "stab stabilizer 2u 2")
+  (fp_text reference Stab (at 0 0.889 unlocked) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Stab_2u (at 0 -0.762) (layer Dwgs.User)
+  (fp_text value Stabilizer (at 0 -0.762) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -19.05 9.525) (end -19.05 -9.525) (layer Dwgs.User) (width 0.15))
