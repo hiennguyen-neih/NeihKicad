@@ -1,19 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Joystick
-D Analog Thumb Joystick This is a joystick very similar to the  analog  joysticks on PS2 (PlayStation 2) controllers. Directional movements are simply two potentiometers - one for each axis. Pots are ~10k each. This joystick also has a select button that is actuated when the joystick is pressed down. <h4>SparkFun Products</h4><ul><li><a href="https://www.sparkfun.com/products/9032">Thumb Joystick</a> (COM-09032)</li><li><a href="https://www.sparkfun.com/products/9110">SparkFun Thumb Joystick Breakout</a> (BOB-09110)</li><li><a href="https://www.sparkfun.com/products/9760">SparkFun Joystick Shield Kit</a> (DEV-09760)</li></ul>
-K PROD_ID:COMP-09744
+D Joystick module that is compatible with both Sparkfun Joystick and Alps Joystick
+K joystick sparkfun alps
 $ENDCMP
 #
 $CMP Switch
-D Push button switch, generic, two pins
-K switch normally-open pushbutton push-button
+D Switch
+K switch button
 F ~
 $ENDCMP
 #
 $CMP Switch_LED
-D Push button switch with LED, generic
-K switch normally-open pushbutton push-button LED
+D Switch with a LED
+K switch button led
+F ~
+$ENDCMP
+#
+$CMP Switch_RGB
+D Switch with a common Anode RGB LED
+K switch button common anode rgb led
+F ~
+$ENDCMP
+#
+$CMP Switch_WS2812
+D Switch with a WS2812 1-wire RGB LED
+K switch button ws2812 1 one wire rgb led
+F ~
+$ENDCMP
+#
+$CMP Switch_WS2812B
+D Switch with a WS2812B 1-wire RGB LED
+K switch button ws2812b 1 one wire rgb led
 F ~
 $ENDCMP
 #

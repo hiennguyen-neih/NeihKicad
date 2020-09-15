@@ -18,8 +18,14 @@ F ~
 $ENDCMP
 #
 $CMP Switch_RGB
-D Switch with a RGB LED
-K switch button rgb led
+D Switch with a common Anode RGB LED
+K switch button common anode rgb led
+F ~
+$ENDCMP
+#
+$CMP Switch_WS2812B
+D Switch with a WS2812B 1-wire RGB LED
+K switch button ws2812b 1 one wire rgb led
 F ~
 $ENDCMP
 #
