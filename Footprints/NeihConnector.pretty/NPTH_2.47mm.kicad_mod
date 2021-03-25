@@ -1,0 +1,11 @@
+(module NPTH_2.47mm (layer F.Cu) (tedit 605CBF9F)
+  (descr "NPTH style pad with size 2.47mm")
+  (tags "npth pad 2.47 mm")
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value NPTH_2.47mm (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.47 2.47) (drill 2.47) (layers *.Cu *.Mask))
+)
