@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP i2c_128x32_SSD1306_OLED
+D i2c connection 128x32 pixels SSD1306 OLED display shield
+K i2c ssd1306 oled 128 32 display screen shield
+$ENDCMP
+#
+$CMP i2c_128x64_SSD1306_OLED
+D i2c connection 128x64 pixels SSD1306 OLED display shield
+K i2c ssd1306 oled 128 64 display screen shield
+$ENDCMP
+#
 #End Doc Library
