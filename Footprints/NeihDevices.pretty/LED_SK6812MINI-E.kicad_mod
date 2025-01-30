@@ -1,0 +1,153 @@
+(footprint "LED_SK6812MINI-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SK6812MINI-E 1-wire RGB LED")
+	(tags "sk6812 mini e 1 one wire rgb smd led")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d173c421-9183-4fb9-bb5c-af1101374eb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "LED_SK6812MINI-E"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "5758a1b0-5434-420e-b71f-53a4742c4017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abe180bc-ef59-459f-91b2-55f750fa5573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac93ad09-739f-4b80-93b3-06c056b02a9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e48ff29-6ff9-4be1-8eb4-98249f510b7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.01 -0.4605)
+		(end -4.01 -1.4605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f08fa33f-203e-4b2e-91b6-5d189ab5f5cf")
+	)
+	(fp_line
+		(start -3.01 -1.4605)
+		(end -4.01 -1.4605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "29db0b85-7dd3-4fe3-85f5-e1d0bee7dea9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "17a48b58-1216-4080-acd8-3521879ae63a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 180)
+		(size 4.5 3.9)
+		(drill oval 4.5 3.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8df67e30-58ce-46bc-b74e-ea4397435e1a")
+	)
+	(pad "DIN" smd rect
+		(at -2.74 0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "05dcc32a-e0de-4563-9415-8a231859fef8")
+	)
+	(pad "DOUT" smd rect
+		(at 2.74 -0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "a957402b-29e7-42ee-afbf-e35439d83f2f")
+	)
+	(pad "GND" smd rect
+		(at -2.74 -0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "74f7f9f5-b58e-4ace-bb6f-ef43b9ce9dbd")
+	)
+	(pad "VDD" smd rect
+		(at 2.74 0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "a4e7255a-295f-4151-a854-b7548eb9d1c0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.step"
+		(offset
+			(xyz 0 0 -2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

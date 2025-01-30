@@ -1,0 +1,153 @@
+(footprint "LED_6028_RGB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6028/3228 common Anode RGB SMD LED")
+	(tags "6028 3228 common anode rgb smd led")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "174d7724-791b-4525-a7a8-0bc75a71d7a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "LED_6028_RGB"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "720969d1-e083-403d-8b01-49594cfd9a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4fc1935-c0bb-4500-90c4-f81a70563c81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dedb41ff-28b0-4c34-8511-3ffdcf3245fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94d91233-9ef6-45be-8bfe-7968de6c36ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.01 -0.4605)
+		(end -4.01 -1.4605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0a1143ec-fb89-46bf-b8cb-6bde384eba21")
+	)
+	(fp_line
+		(start -3.01 -1.4605)
+		(end -4.01 -1.4605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bfe76680-a375-42e6-8804-f4489d5afe3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "17794903-5c43-44c4-ba34-2d0f0e952da5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 180)
+		(size 4.5 3.9)
+		(drill oval 4.5 3.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9e76d2fc-64df-4ea8-9b0c-381160063891")
+	)
+	(pad "A" smd rect
+		(at -2.74 -0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "dd3d02bf-86a3-4bc0-8424-74523eae57ed")
+	)
+	(pad "B" smd rect
+		(at -2.74 0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "dfce2967-88ca-4fc0-81d2-2998ed3ebe76")
+	)
+	(pad "G" smd rect
+		(at 2.74 0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "022ecb18-1100-449a-a900-0a521108dff0")
+	)
+	(pad "R" smd rect
+		(at 2.74 -0.6985 270)
+		(size 1 2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "afb0f26d-ffd1-4621-b372-053939865222")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.step"
+		(offset
+			(xyz 0 0 -2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

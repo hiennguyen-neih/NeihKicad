@@ -1,0 +1,119 @@
+(footprint "LED_1206_single"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1206 (3016M) single color SMD LED")
+	(tags "1206 3016m single color smd led")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0687f1a2-dd1c-4ac3-aba2-4e81206e8287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "LED_1206_single"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "056dd588-bfdd-411c-8efa-4797719b5425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06299ec3-7d4c-43a9-8d44-611aa1b7f471")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f7e767d-d5cd-4364-9310-5e6491251a86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a46154a6-4cdc-45aa-b9c3-310b7992faea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "94f6810c-7a08-4138-927f-e6b1ea0a4484")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 2.6 2.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "da41c6bd-045b-41e1-8cdf-ab79d0b130e4")
+	)
+	(pad "A" smd rect
+		(at -1.905 0 180)
+		(size 2 1.59766)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "57772bd2-0438-48ec-b5f9-2f5829623d73")
+	)
+	(pad "K" smd rect
+		(at 1.905 0 180)
+		(size 2 1.59766)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(uuid "1b6898f0-b425-4bbd-8bee-a13943f33663")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 -2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
