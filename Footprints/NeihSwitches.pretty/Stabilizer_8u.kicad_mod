@@ -1,10 +1,10 @@
-(footprint "Stabilizer_2u"
+(footprint "Stabilizer_8u"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "2u long stabilizer socket, this socket also could be used for 2.25u and 2.75u keycaps long")
-	(tags "stab stabilizer 2 2.25 2.75 2u 2.25u 2.75u")
+	(descr "8u long stabilizer socket, this socket also could be used for 9u and 10u keycaps long")
+	(tags "stab stabilizer 8 8u 9 9u 10 10u")
 	(property "Reference" "Stab"
 		(at 0 0.889 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Stabilizer_2u"
+	(property "Value" "Stabilizer_8u"
 		(at 0 -0.762 0)
 		(layer "Dwgs.User")
 		(uuid "056baa10-ab5e-4b48-8698-619833a6ff84")
@@ -54,8 +54,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -13.589 -5.334)
-		(end -13.589 6.096)
+		(start -68.326 -5.334)
+		(end -68.326 6.096)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "3750c86c-8b93-4916-b1f0-78b35c279b73")
 	)
 	(fp_line
-		(start -13.589 6.096)
-		(end -10.287 6.096)
+		(start -68.326 6.096)
+		(end -65.024 6.096)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "4cb07fa0-421b-4d4a-aa41-7f057f42f7ce")
 	)
 	(fp_line
-		(start -10.287 -5.334)
-		(end -13.589 -5.334)
+		(start -65.024 -5.334)
+		(end -68.326 -5.334)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "ea1cf54b-a74f-47af-9d3c-59b090304550")
 	)
 	(fp_line
-		(start -10.287 6.096)
-		(end -10.287 -5.334)
+		(start -65.024 6.096)
+		(end -65.024 -5.334)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "e9c02243-3af2-4bb3-9418-1f7cfd3a109b")
 	)
 	(fp_line
-		(start 10.287 -5.334)
-		(end 10.287 6.096)
+		(start 65.024 -5.334)
+		(end 65.024 6.096)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -104,8 +104,8 @@
 		(uuid "230a3e01-104e-484d-a95c-7e57abf699f5")
 	)
 	(fp_line
-		(start 10.287 6.096)
-		(end 13.589 6.096)
+		(start 65.024 6.096)
+		(end 68.326 6.096)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "184eea59-28a4-4acb-876c-07d0ac1a8c1e")
 	)
 	(fp_line
-		(start 13.589 -5.334)
-		(end 10.287 -5.334)
+		(start 68.326 -5.334)
+		(end 65.024 -5.334)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -124,8 +124,8 @@
 		(uuid "cf135d8f-6169-4cd8-a1af-c603ddda7627")
 	)
 	(fp_line
-		(start 13.589 6.096)
-		(end 13.589 -5.334)
+		(start 68.326 6.096)
+		(end 68.326 -5.334)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -134,28 +134,28 @@
 		(uuid "83c8789f-83c5-4066-87ad-5cafd65ee8b6")
 	)
 	(pad "" np_thru_hole circle
-		(at -11.938 -6.985)
+		(at -66.675 -6.985)
 		(size 3.048 3.048)
 		(drill 3.048)
 		(layers "*.Cu" "*.Mask")
 		(uuid "d281b1bf-b20b-410a-a5d4-5470d777efd4")
 	)
 	(pad "" np_thru_hole circle
-		(at -11.938 8.255)
+		(at -66.675 8.255)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
 		(layers "*.Cu" "*.Mask")
 		(uuid "ed248c55-59f4-4e5f-b782-48f6ca0bb132")
 	)
 	(pad "" np_thru_hole circle
-		(at 11.938 -6.985)
+		(at 66.675 -6.985)
 		(size 3.048 3.048)
 		(drill 3.048)
 		(layers "*.Cu" "*.Mask")
 		(uuid "ee8cab69-b3ab-4b43-bc66-929afd1927ff")
 	)
 	(pad "" np_thru_hole circle
-		(at 11.938 8.255)
+		(at 66.675 8.255)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
 		(layers "*.Cu" "*.Mask")
