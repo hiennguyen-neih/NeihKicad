@@ -1,7 +1,7 @@
-(footprint "Hotswap_LED_2u_2"
-	(version 20240108)
+(footprint "Hotswap_LED_2u"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kailh hotswap key switches socket and mark for LED with horizontal 2u keycap shape")
 	(tags "mx kailh hot swap hotswap socket horizontal 2u 2 keycap led mark")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f0bad477-39b8-4744-adbf-b69be83a5c21")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -65,108 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -6.35 -4.445)
-		(end -6.35 -4.064)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "ddff130a-d996-46f6-8d23-ab7cbb6effd0")
-	)
-	(fp_line
-		(start -6.35 -1.016)
-		(end -6.35 -0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6e44727e-e599-41f7-9b3b-3553ab0146b9")
-	)
-	(fp_line
-		(start -6.35 -0.635)
-		(end -5.969 -0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "e0b434e1-8626-4846-8386-5a8970f8aec6")
-	)
-	(fp_line
-		(start -4.191 -0.635)
-		(end -2.54 -0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6163c52f-7d97-4691-96d8-0898e8ed99f6")
-	)
-	(fp_line
-		(start 0 -2.54)
-		(end 5.08 -2.54)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "bed72b45-8cb3-4d4e-9e5b-bcac2f0ac6cc")
-	)
-	(fp_line
-		(start 5.08 -6.985)
-		(end -3.81 -6.985)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "cd0e6a98-a791-4a85-b019-f585cf06b0d7")
-	)
-	(fp_line
-		(start 5.08 -6.604)
-		(end 5.08 -6.985)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "7dadb272-2b75-4c33-9af1-c378d0d78692")
-	)
-	(fp_line
-		(start 5.08 -2.54)
-		(end 5.08 -3.556)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "22212148-0a3b-431f-8013-e2464c30d248")
-	)
-	(fp_arc
-		(start -6.35 -4.445)
-		(mid -5.606051 -6.241051)
-		(end -3.81 -6.985)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "f03bb55d-1690-48be-bae4-3b82e624d2aa")
-	)
-	(fp_arc
-		(start -2.464162 -0.61604)
-		(mid -1.563147 -2.002042)
-		(end 0 -2.54)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "d0d8573b-50be-435f-b670-2badcf39299c")
-	)
 	(fp_line
 		(start -13.589 -5.334)
 		(end -13.589 6.096)
@@ -326,6 +212,108 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a95ea79c-e6a8-4c57-a06f-321570de3bd3")
+	)
+	(fp_line
+		(start -6.35 -4.445)
+		(end -6.35 -4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ddff130a-d996-46f6-8d23-ab7cbb6effd0")
+	)
+	(fp_line
+		(start -6.35 -1.016)
+		(end -6.35 -0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6e44727e-e599-41f7-9b3b-3553ab0146b9")
+	)
+	(fp_line
+		(start -6.35 -0.635)
+		(end -5.969 -0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e0b434e1-8626-4846-8386-5a8970f8aec6")
+	)
+	(fp_line
+		(start -4.191 -0.635)
+		(end -2.54 -0.635)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6163c52f-7d97-4691-96d8-0898e8ed99f6")
+	)
+	(fp_line
+		(start 0 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bed72b45-8cb3-4d4e-9e5b-bcac2f0ac6cc")
+	)
+	(fp_line
+		(start 5.08 -6.985)
+		(end -3.81 -6.985)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cd0e6a98-a791-4a85-b019-f585cf06b0d7")
+	)
+	(fp_line
+		(start 5.08 -6.604)
+		(end 5.08 -6.985)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7dadb272-2b75-4c33-9af1-c378d0d78692")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 -3.556)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "22212148-0a3b-431f-8013-e2464c30d248")
+	)
+	(fp_arc
+		(start -6.35 -4.445)
+		(mid -5.606051 -6.241051)
+		(end -3.81 -6.985)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f03bb55d-1690-48be-bae4-3b82e624d2aa")
+	)
+	(fp_arc
+		(start -2.464162 -0.61604)
+		(mid -1.563147 -2.002042)
+		(end 0 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "d0d8573b-50be-435f-b670-2badcf39299c")
 	)
 	(fp_line
 		(start -19.05 -9.525)
@@ -603,15 +591,16 @@
 	(pad "1" smd rect
 		(at -7.874 -2.54 180)
 		(size 3 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "5895955c-b5a5-438d-b4ce-9dab0d4e99da")
 	)
 	(pad "2" smd rect
 		(at 6.604 -5.08 180)
 		(size 3 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "a6e97f65-3bce-4f9e-9427-cd12560cabed")
 	)
+	(embedded_fonts no)
 )
