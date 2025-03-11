@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Kailh hotswap socket and MX-style key switches with 7 keycap shape")
+	(descr "Kailh hotswap socket and MX-style key switches with 7u keycap shape")
 	(tags "mx kailh hot swap hotswap socket 7u 7 keycap")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
