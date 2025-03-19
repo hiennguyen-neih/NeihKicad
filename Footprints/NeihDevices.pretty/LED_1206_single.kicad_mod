@@ -1,7 +1,7 @@
 (footprint "LED_1206_single"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1206 (3016M) single color SMD LED")
 	(tags "1206 3016m single color smd led")
@@ -29,19 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06299ec3-7d4c-43a9-8d44-611aa1b7f471")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -94,17 +81,40 @@
 	(pad "A" smd rect
 		(at -1.905 0 180)
 		(size 2 1.59766)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "57772bd2-0438-48ec-b5f9-2f5829623d73")
 	)
 	(pad "K" smd rect
 		(at 1.905 0 180)
 		(size 2 1.59766)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "1b6898f0-b425-4bbd-8bee-a13943f33663")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
 		(offset
 			(xyz 0 0 -2.1)
