@@ -1,7 +1,7 @@
 (footprint "Hotswap_LED_1.75u"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kailh hotswap key switches socket and mark for LED with 1.75u keycap shape")
 	(tags "mx kailh hot swap hotswap socket 1.75u 1.75 keycap led mark")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5217d08f-b713-4b19-97ba-6ae51e55097a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -65,6 +53,86 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -7 -6)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "410c559e-929e-457f-b47c-5ec186f5f9b9")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5d2c4bb-a128-4449-afee-a1f8a01aba0f")
+	)
+	(fp_line
+		(start -7 7)
+		(end -6 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fab4c7d-7b7b-4e06-bc82-4ceeedd22801")
+	)
+	(fp_line
+		(start -6 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecd3ddea-3548-4f4d-bb87-a5f4b36f1e2b")
+	)
+	(fp_line
+		(start 6 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a9ac899-6941-455d-84a2-a48e41854cd1")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 6 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbec0797-dcbb-4420-bf5d-9860f0a2cc6e")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "847a2e83-ec97-4bbf-80fa-9ccede5f8cc6")
+	)
+	(fp_line
+		(start 7 6)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08421453-426c-447f-a904-cd7aadc94e29")
+	)
 	(fp_line
 		(start -6.35 -4.445)
 		(end -6.35 -4.064)
@@ -166,86 +234,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "a05e93fb-dd34-4095-a126-1482c6055c43")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "410c559e-929e-457f-b47c-5ec186f5f9b9")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e5d2c4bb-a128-4449-afee-a1f8a01aba0f")
-	)
-	(fp_line
-		(start -7 7)
-		(end -6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4fab4c7d-7b7b-4e06-bc82-4ceeedd22801")
-	)
-	(fp_line
-		(start -6 -7)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ecd3ddea-3548-4f4d-bb87-a5f4b36f1e2b")
-	)
-	(fp_line
-		(start 6 7)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2a9ac899-6941-455d-84a2-a48e41854cd1")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bbec0797-dcbb-4420-bf5d-9860f0a2cc6e")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "847a2e83-ec97-4bbf-80fa-9ccede5f8cc6")
-	)
-	(fp_line
-		(start 7 6)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "08421453-426c-447f-a904-cd7aadc94e29")
 	)
 	(fp_line
 		(start -16.66875 -9.525)
@@ -495,15 +483,38 @@
 	(pad "1" smd rect
 		(at -7.874 -2.54 180)
 		(size 3 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "f3565bfb-c420-4993-8568-b39a561d2216")
 	)
 	(pad "2" smd rect
 		(at 6.604 -5.08 180)
 		(size 3 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0.1016)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "8d7dfb05-6fee-44ed-be7f-59145582de60")
 	)
+	(embedded_fonts no)
 )
