@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.2032)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,6 +20,7 @@
 		(at 0 3.556 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "93d6a45b-9248-4cdc-b71c-5dcf4e186298")
 		(effects
 			(font
@@ -59,7 +60,7 @@
 		(start -4.3 -2.4)
 		(end -4.3 2.4)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -69,7 +70,7 @@
 		(start -4.3 -2.4)
 		(end 4.3 -2.4)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -79,7 +80,7 @@
 		(start -4.3 2.4)
 		(end 4.3 2.4)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -89,7 +90,7 @@
 		(start -1.64 -0.85)
 		(end -1.64 0.85)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -99,7 +100,7 @@
 		(start -1.64 -0.85)
 		(end -0.64 -0.85)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +110,7 @@
 		(start -1.64 0.85)
 		(end -0.64 0.85)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -119,7 +120,7 @@
 		(start -0.64 0.85)
 		(end -0.64 -0.85)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -129,23 +130,11 @@
 		(start 4.3 -2.4)
 		(end 4.3 2.4)
 		(stroke
-			(width 0.254)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "d4d4de88-ba96-4be7-a4b4-f1ff3d397dc9")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -3.556 0)
-		(layer "B.SilkS")
-		(uuid "a4d3d02d-9447-4258-a889-1c340c13010d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
 	)
 	(pad "" np_thru_hole circle
 		(at -2 0 180)
