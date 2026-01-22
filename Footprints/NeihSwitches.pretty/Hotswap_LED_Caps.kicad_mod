@@ -631,6 +631,32 @@
 		(layer "F.Fab")
 		(uuid "afe927d7-5880-4738-9401-71e3fa1b449c")
 	)
+	(fp_text user "1.75"
+		(at 5.3975 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a47b4cb5-7d1b-4646-9456-fdb923ff7764")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "Caps"
+		(at -0.635 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e0f10d8e-ced5-402e-8d81-8e29f5033158")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)
 		(layer "B.SilkS")

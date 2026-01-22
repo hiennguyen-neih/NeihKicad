@@ -59,14 +59,14 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4.01 -0.4605)
-		(end -4.01 -1.4605)
+		(start -4.01 -0.46)
+		(end -4.01 -1.46)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "f08fa33f-203e-4b2e-91b6-5d189ab5f5cf")
+		(uuid "f0ecf8f6-9817-4687-9817-724a672060f4")
 	)
 	(fp_line
 		(start -3.01 -1.4605)
@@ -77,6 +77,20 @@
 		)
 		(layer "B.SilkS")
 		(uuid "29db0b85-7dd3-4fe3-85f5-e1d0bee7dea9")
+	)
+	(fp_text user "GND"
+		(at -3.51 -1.56 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "daceec2f-01bf-46aa-b294-65cbdc59cc84")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify bottom mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3 0)

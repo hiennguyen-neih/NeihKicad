@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "2u long stabilizer socket, this socket also could be used for 2.25u and 2.75u keycaps long")
+	(descr "2u long stabilizer socket, this socket also could be used for 2.25u, 2.75u and 3u keycaps long")
 	(tags "stab stabilizer 2 2.25 2.75 2u 2.25u 2.75u")
 	(property "Reference" "Stab"
 		(at 0 0.889 0)

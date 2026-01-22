@@ -276,46 +276,6 @@
 		(uuid "fa95d36c-62a4-4724-96ca-ff3a7661189b")
 	)
 	(fp_line
-		(start -58.801 -5.334)
-		(end -58.801 6.096)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "90a39217-177f-4053-9c7f-0d2f6a7f4348")
-	)
-	(fp_line
-		(start -58.801 6.096)
-		(end -55.499 6.096)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "2ea1eb51-f1ba-44dc-bd83-c946a9417762")
-	)
-	(fp_line
-		(start -55.499 -5.334)
-		(end -58.801 -5.334)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "5d2e589c-938a-41d6-961d-8e65d70b9a47")
-	)
-	(fp_line
-		(start -55.499 6.096)
-		(end -55.499 -5.334)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "60a60ccb-7ec7-4803-ae21-5d5eaf04e7dc")
-	)
-	(fp_line
 		(start -6.9 6.9)
 		(end -6.9 -6.9)
 		(stroke
@@ -354,46 +314,6 @@
 		)
 		(layer "Eco2.User")
 		(uuid "d2b3f0a6-a96c-4880-8a00-49c5a2bac800")
-	)
-	(fp_line
-		(start 55.499 -5.334)
-		(end 55.499 6.096)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "4fdedc6e-2e2b-432f-9ca2-8d1fd2435863")
-	)
-	(fp_line
-		(start 55.499 6.096)
-		(end 58.801 6.096)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "52594db8-212e-4782-816c-de598fc7da6d")
-	)
-	(fp_line
-		(start 58.801 -5.334)
-		(end 55.499 -5.334)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "09dc9e2e-e067-40d6-9b47-0af95631284c")
-	)
-	(fp_line
-		(start 58.801 6.096)
-		(end 58.801 -5.334)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "Eco2.User")
-		(uuid "88e19089-7285-495b-9fda-81272e85d7b9")
 	)
 	(fp_line
 		(start -6.35 -4.445)
@@ -507,6 +427,19 @@
 		(layer "F.Fab")
 		(uuid "470d5d60-c781-426f-a347-89818381a701")
 	)
+	(fp_text user "7u"
+		(at -0.635 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9611f5b-367b-43a7-a74b-22631fe57e81")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)
 		(layer "B.SilkS")
@@ -518,20 +451,6 @@
 			)
 			(justify mirror)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -57.15 -6.985)
-		(size 3.048 3.048)
-		(drill 3.048)
-		(layers "*.Cu" "*.Mask")
-		(uuid "1d67a95d-5151-4b04-8e04-1f412b79226a")
-	)
-	(pad "" np_thru_hole circle
-		(at -57.15 8.255)
-		(size 3.9878 3.9878)
-		(drill 3.9878)
-		(layers "*.Cu" "*.Mask")
-		(uuid "977a6f75-c293-4ea0-9ea8-5b25bb24c443")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0 180)
@@ -567,20 +486,6 @@
 		(drill 1.76)
 		(layers "*.Cu" "*.Mask")
 		(uuid "3352853b-f61e-4837-8298-42a4c8c2e1d1")
-	)
-	(pad "" np_thru_hole circle
-		(at 57.15 -6.985)
-		(size 3.048 3.048)
-		(drill 3.048)
-		(layers "*.Cu" "*.Mask")
-		(uuid "1afbbd98-07db-465f-a3ac-012fecd76268")
-	)
-	(pad "" np_thru_hole circle
-		(at 57.15 8.255)
-		(size 3.9878 3.9878)
-		(drill 3.9878)
-		(layers "*.Cu" "*.Mask")
-		(uuid "7d3180e7-ce33-4477-850e-ef4eeca62743")
 	)
 	(pad "1" smd rect
 		(at -7.874 -2.54 180)

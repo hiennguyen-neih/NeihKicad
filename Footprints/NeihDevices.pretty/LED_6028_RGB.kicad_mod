@@ -78,6 +78,20 @@
 		(layer "B.SilkS")
 		(uuid "bfe76680-a375-42e6-8804-f4489d5afe3c")
 	)
+	(fp_text user "A"
+		(at -3.51 -1.56 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "87e09282-3440-475e-a9b3-6aff4b4b1829")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3 0)
 		(unlocked yes)

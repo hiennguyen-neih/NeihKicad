@@ -721,6 +721,32 @@
 		(layer "F.Fab")
 		(uuid "30d0b606-af6f-4349-b0d0-64c6a10c991b")
 	)
+	(fp_text user "1.75"
+		(at 5.3975 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "16106f6c-81a2-421d-a40d-bda9ad09636d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "Caps"
+		(at -3.81 0.635 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7215fad9-8ab1-4145-a85a-599bcb01f17c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)
 		(layer "B.SilkS")
@@ -774,13 +800,6 @@
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(uuid "81a7a8e6-5eaf-425e-b9e8-09eec4b3de2b")
-	)
-	(pad "" np_thru_hole circle
-		(at 4.7625 0)
-		(size 3.9878 3.9878)
-		(drill 3.9878)
-		(layers "*.Cu" "*.Mask")
-		(uuid "45459ef2-b30a-46a6-b149-02c2329ec6f5")
 	)
 	(pad "" np_thru_hole circle
 		(at 4.7625 0 90)
