@@ -1,4 +1,4 @@
-(footprint "Hotswap_1.25u"
+(footprint "Hotswap_Only_1.25u"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Hotswap_1.25u"
+	(property "Value" "Hotswap_Only_1.25u"
 		(at 0 8.255 0)
 		(layer "F.Fab")
 		(hide yes)

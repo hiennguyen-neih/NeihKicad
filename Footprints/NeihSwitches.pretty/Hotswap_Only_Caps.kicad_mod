@@ -1,4 +1,4 @@
-(footprint "Hotswap_Caps"
+(footprint "Hotswap_Only_Caps"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Hotswap_Caps"
+	(property "Value" "Hotswap_Only_Caps"
 		(at 0 8.255 0)
 		(layer "F.Fab")
 		(hide yes)
