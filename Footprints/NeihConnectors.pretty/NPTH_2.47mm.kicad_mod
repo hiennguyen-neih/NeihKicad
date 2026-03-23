@@ -1,0 +1,66 @@
+(footprint "NPTH_2.47mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NPTH style pad with size 2.47mm")
+	(tags "npth pad 2.47 mm")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "001330db-ee74-4dd8-8610-d636a35d153d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NPTH_2.47mm"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0534f33-fb0a-49ab-93f6-c33600815362")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eee20de-0433-4f73-ad31-efe907d857c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81372385-ad31-4485-ab3e-754757e1eb36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.47 2.47)
+		(drill 2.47)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1)
+		(uuid "18d5ccf4-1c96-4524-a640-95a223cdb570")
+	)
+	(embedded_fonts no)
+)
