@@ -1,0 +1,197 @@
+(footprint "Keycap_ISO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Reference shape for ISO enter keycap")
+	(tags "reference shape iso enter kecap")
+	(property "Reference" "REF**"
+		(at 0 -8.255 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6d0f6e40-060f-4677-9a20-53839e23647c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Keycap_ISO"
+		(at 0.254 8.128 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97418b9c-9fbb-40b1-b6e9-38ccef4a6902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7efcb858-3780-4861-868e-8754de3f724a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c841fda-9db2-48c6-a948-c98142635f39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.66875 -19.05)
+		(end 11.90625 -19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9e86cb8e-1a22-46de-862e-4afe62210ba6")
+	)
+	(fp_line
+		(start -16.66875 0)
+		(end -16.66875 -19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b8d0cfe8-5ded-440a-9c37-0547de2a1de1")
+	)
+	(fp_line
+		(start -11.90625 0)
+		(end -16.66875 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e6e8adc0-cc91-4304-bc09-9c397052e703")
+	)
+	(fp_line
+		(start -11.90625 19.05)
+		(end -11.90625 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "23adc280-7bed-4b43-8a2b-bde543d4ad17")
+	)
+	(fp_line
+		(start 11.90625 -19.05)
+		(end 11.90625 19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "78d8bd80-466a-436c-a59f-bcd2d0c0227a")
+	)
+	(fp_line
+		(start 11.90625 19.05)
+		(end -11.90625 19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2a145e4d-85aa-4794-887b-e1e6e5da63cb")
+	)
+	(fp_line
+		(start -16.14375 -18.525)
+		(end -16.14375 -0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "2c9d933a-ad6a-49da-8260-0c934caa7177")
+	)
+	(fp_line
+		(start -16.14375 -18.525)
+		(end 11.38125 -18.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "21ad5c2c-f96e-4d51-bf24-793caa05fc1d")
+	)
+	(fp_line
+		(start -11.38125 -0.525)
+		(end -16.14375 -0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "0f4e8576-7a12-42a2-b724-0d0b53946530")
+	)
+	(fp_line
+		(start -11.38125 -0.525)
+		(end -11.38125 18.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "e630c9c1-0a6b-4234-91c6-1a4e381a53dc")
+	)
+	(fp_line
+		(start -11.38125 18.525)
+		(end 11.38125 18.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "0d5bde2c-4ce4-468e-828d-0e5c4fe0b0d4")
+	)
+	(fp_line
+		(start 11.38125 -18.525)
+		(end 11.38125 18.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "9ecde167-eb52-4fb2-8818-180afbffe603")
+	)
+	(pad "" smd circle
+		(at 0 0 180)
+		(size 1 1)
+		(layers "Dwgs.User")
+		(uuid "63dff49e-c3cf-4fa4-bcf4-6ddf9b1fe0b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_ISOEnter_Plate.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
