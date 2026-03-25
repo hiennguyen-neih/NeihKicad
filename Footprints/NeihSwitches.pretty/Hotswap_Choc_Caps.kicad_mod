@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Kailh MX-style hotswap socket and Chocolate style hotswap key switches with capslock keycap shape")
-	(tags "mx kailh chocolate choc pg1511 pg1350 hot swap hotswap socket cap caps lock capslock 1.75u 1.75 keycap")
+	(descr "Kailh MX-style hotswap socket and Chocolate style hotswap key switches for Capslock")
+	(tags "mx kailh chocolate choc pg1511 pg1350 hot swap hotswap socket cap caps lock capslock 1.75u 1.75")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
 		(layer "F.SilkS")
@@ -368,56 +368,6 @@
 		(uuid "3dab9a72-6ba7-4bdd-aae5-3749e2aee62b")
 	)
 	(fp_line
-		(start -11.90625 9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "f9159e54-1eaf-4ed4-ae93-2d8a570eeba4")
-	)
-	(fp_line
-		(start 11.90625 -9.525)
-		(end 11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "78e4f932-5eac-4ac2-bcb5-ba2023fb8026")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "3cbb00d1-5a05-438c-b4cb-ad30ed3805e2")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end 21.43125 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "1779e718-4ffc-4bed-b99b-42867bf8b4ea")
-	)
-	(fp_line
-		(start 21.43125 9.525)
-		(end -11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "3cb74f9a-eac3-44c1-8fdc-12e68586d46e")
-	)
-	(fp_line
 		(start -6.9 6.9)
 		(end -6.9 -6.9)
 		(stroke
@@ -720,32 +670,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "30d0b606-af6f-4349-b0d0-64c6a10c991b")
-	)
-	(fp_text user "1.75"
-		(at 5.3975 3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "16106f6c-81a2-421d-a40d-bda9ad09636d")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(fp_text user "Caps"
-		(at -3.81 0.635 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7215fad9-8ab1-4145-a85a-599bcb01f17c")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)

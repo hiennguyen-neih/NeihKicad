@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Kailh hotswap key switches socket and mark for LED with capslock keycap shape")
+	(descr "Kailh hotswap key switches socket and mark for LED for Capslock")
 	(tags "kailh hot swap hotswap socket cap caps lock capslock 1.75u 1.75 keycap led mark")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
@@ -338,56 +338,6 @@
 		(uuid "e0a05a9b-de17-4d90-855c-4f8be86d8731")
 	)
 	(fp_line
-		(start -11.90625 9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "94f7e084-93e3-46dd-b33e-6dd56b49abc7")
-	)
-	(fp_line
-		(start 11.90625 -9.525)
-		(end 11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "1de2b0f2-95c6-4d59-9af3-a24b65fed667")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "91cb33a6-cbe6-45db-bef4-a47a66b1019a")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end 21.43125 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "ccaa5cfc-1f39-4e55-9756-2dbbd8b696ac")
-	)
-	(fp_line
-		(start 21.43125 9.525)
-		(end -11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "6411d493-1321-4006-ac28-4ccc0f4d7289")
-	)
-	(fp_line
 		(start -6.9 6.9)
 		(end -6.9 -6.9)
 		(stroke
@@ -630,32 +580,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "afe927d7-5880-4738-9401-71e3fa1b449c")
-	)
-	(fp_text user "1.75"
-		(at 5.3975 3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "a47b4cb5-7d1b-4646-9456-fdb923ff7764")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(fp_text user "Caps"
-		(at -0.635 -3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e0f10d8e-ced5-402e-8d81-8e29f5033158")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)

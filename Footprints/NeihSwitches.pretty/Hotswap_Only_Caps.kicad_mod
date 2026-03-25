@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Kailh hotswap socket key switches with capslock keycap shape")
+	(descr "Kailh hotswap socket key switches for Capslock")
 	(tags "kailh hot swap hotswap socket cap caps lock capslock 1.75u 1.75 keycap")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
@@ -338,56 +338,6 @@
 		(uuid "49b388cb-9eec-4444-a668-61d626757c17")
 	)
 	(fp_line
-		(start -11.90625 9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "e67e4f2b-34a0-4dbd-ad99-8b29a8b709f3")
-	)
-	(fp_line
-		(start 11.90625 -9.525)
-		(end 11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0ba2164b-eb2b-421b-87be-b75de9c02221")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end -11.90625 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "bd9db1f5-3adf-494b-b5bb-4ca59f8cdd85")
-	)
-	(fp_line
-		(start 21.43125 -9.525)
-		(end 21.43125 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "61837627-75e6-4819-9644-ceda3423bf4e")
-	)
-	(fp_line
-		(start 21.43125 9.525)
-		(end -11.90625 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "b8aa0c7c-f219-4a86-965c-84e83749283f")
-	)
-	(fp_line
 		(start -6.9 6.9)
 		(end -6.9 -6.9)
 		(stroke
@@ -630,32 +580,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "8454de3a-7484-43b1-91ca-ba44395ea627")
-	)
-	(fp_text user "Caps"
-		(at -0.635 -3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "15a75eea-8e59-4312-8a83-5fe7d1ff7637")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "1.75"
-		(at 5.3975 3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7a055649-cd8e-44d7-94d9-dcc6e922ac93")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8.255 0)
