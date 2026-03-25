@@ -55,7 +55,6 @@
 			)
 		)
 	)
-	(attr through_hole)
 	(fp_line
 		(start -16.66875 -19.05)
 		(end 11.90625 -19.05)
