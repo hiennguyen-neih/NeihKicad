@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Reference shape for ISO enter keycap")
-	(tags "reference shape iso enter kecap")
+	(descr "Alignment shape for ISO enter keycap")
+	(tags "alignment align shape iso enter kecap")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
 		(layer "F.SilkS")

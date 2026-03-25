@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Reference shape for 1.5u keycap")
-	(tags "reference shape 1.5u 1.5 kecap")
+	(descr "Alignment shape for 1.5u keycap")
+	(tags "alignment align shape 1.5u 1.5 kecap")
 	(property "Reference" "REF**"
 		(at 0 -8.255 0)
 		(layer "F.SilkS")
