@@ -143,10 +143,21 @@
 		(layer "Eco1.User")
 		(uuid "3982cbcc-ceff-4dfe-80c9-02f6e609fc2c")
 	)
+	(fp_rect
+		(start -7 -7)
+		(end 11.7625 7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "a2f0caeb-6573-493b-a640-aaaf83a794f8")
+	)
 	(pad "" smd circle
 		(at 0 0 270)
 		(size 1 1)
-		(layers "F.Paste")
+		(layers "Dwgs.User")
 		(uuid "503863ba-ed4d-41dc-b9bc-391b0b640434")
 	)
 	(pad "" smd circle

@@ -133,6 +133,17 @@
 		(layer "Eco1.User")
 		(uuid "9bedcef0-f3eb-4dfa-be1e-35900d807c33")
 	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "7f0188e1-526f-4c0a-8962-5e299dfd4665")
+	)
 	(pad "" smd circle
 		(at 0 0 180)
 		(size 1 1)
