@@ -1,0 +1,202 @@
+(footprint "BatteryHolder_BAT-HLD-012-SMT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT battery holder for CR1216/1220/1225")
+	(tags "battery holder coin cell cr1216 cr1220 cr1225")
+	(property "Reference" "REF**"
+		(at 0 -8.0772 0)
+		(layer "F.SilkS")
+		(uuid "5aa52324-3168-43e4-9784-2ddb403cb9a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_BAT-HLD-012-SMT"
+		(at 0 -7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6e57123-5cb1-44ad-9ebd-58ea486ba59b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53cab4ef-a9a8-4c94-84ca-1be2f46a12c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d61b6ca-b8a4-4075-b60e-53d86c170408")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.5344 5.9436)
+		(end -8.5344 -5.9436)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e810cfcc-1d05-4f5b-b7b8-8fe6b4b3f06d")
+	)
+	(fp_line
+		(start -6.0452 -5.9436)
+		(end -6.0452 -5.154667)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58f0e6fe-6985-4c26-95de-1240b136357f")
+	)
+	(fp_line
+		(start -6.0452 5.9436)
+		(end -6.0452 5.154667)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a778bd5d-3a48-4b8d-b266-7b907cc12dd9")
+	)
+	(fp_line
+		(start -5.154667 -5.154667)
+		(end -6.0452 -5.154667)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3524e02d-6184-42b4-977d-275ecfff046f")
+	)
+	(fp_line
+		(start -5.154667 5.154667)
+		(end -6.0452 5.154667)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a92ba84-810b-4c0d-b88c-31fe8e8cef88")
+	)
+	(fp_arc
+		(start -8.5344 -5.9436)
+		(mid -7.2898 -7.1882)
+		(end -6.0452 -5.9436)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34f69759-db4e-4162-aef4-98c0d0aec344")
+	)
+	(fp_arc
+		(start -6.0452 5.9436)
+		(mid -7.2898 7.1882)
+		(end -8.5344 5.9436)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "234ebd72-7e9f-4467-84e6-beee3bc33882")
+	)
+	(fp_arc
+		(start -5.154667 -5.154667)
+		(mid 7.2898 0)
+		(end -5.154667 5.154667)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a800012-cdec-4e59-b336-beae80498ca5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3522fa42-fc88-48cb-9cd8-35469af313a4")
+	)
+	(fp_text user "+"
+		(at -10.1092 1.1938 180)
+		(layer "F.SilkS")
+		(uuid "9c19ddd8-751a-40eb-8544-f4ca22bb14a6")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.45)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.0772 0)
+		(layer "F.Fab")
+		(uuid "e8b58e0c-ed25-4761-b535-dc51299fb543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.275 0 180)
+		(size 0.85 0.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f251e5b9-2dec-487a-9ee3-3f965062fd69")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.275 0 180)
+		(size 0.85 0.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4d3736da-4937-4623-9191-6e770d87dd4e")
+	)
+	(pad "1" smd rect
+		(at -7.6 0 180)
+		(size 4.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f582f4d1-0ebe-4185-aa32-f967f98bd395")
+	)
+	(pad "2" smd rect
+		(at 7.6 0 180)
+		(size 4.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f47a78a-ed65-4f8a-a35d-2ad0760acbbb")
+	)
+	(embedded_fonts no)
+)
